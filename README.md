@@ -1,2 +1,2 @@
 # blog
-This is my blob
+This is my blog
