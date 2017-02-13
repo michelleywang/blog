@@ -13,9 +13,17 @@
           <div class="sidebar-module">
             <h4>Elsewhere</h4>
             <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
               <li><a href="#">Facebook</a></li>
             </ol>
+          </div>
+          <div class="sidebar-module">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({
+               google_ad_client: "ca-pub-8855663070029233",
+               enable_page_level_ads: true
+              });
+            </script>
           </div>
         </div><!-- /.blog-sidebar -->
