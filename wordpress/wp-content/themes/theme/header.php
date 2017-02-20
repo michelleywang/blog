@@ -11,6 +11,10 @@
 
     <title><?php echo get_bloginfo( 'name'); ?></title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
@@ -42,4 +46,6 @@
    <div class="blog-header">
   <h1 class="blog-title"><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
   <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
+
+
 </div>

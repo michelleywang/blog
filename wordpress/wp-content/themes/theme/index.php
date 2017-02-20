@@ -3,7 +3,12 @@
 
   <div class="row">
 
-    <div class="col-sm-8 blog-main">
+      <?php if(is_front_page()): ?>  
+          <div class="col-sm-12 blog-main">
+      <?php else: ?>
+          <div class="col-sm-8 blog-main">
+      <?php endif; ?>
+    
 
         <?php 
       if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -12,10 +17,9 @@
   
       endwhile; endif; 
       ?>
+<!-- about section-->
 
     </div> <!-- /.blog-main -->
-
-    <?php get_sidebar(); ?>
 
   </div> <!-- /.row -->
 

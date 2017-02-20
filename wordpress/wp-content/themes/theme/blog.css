@@ -3,7 +3,7 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
   color: #555;
 }
 
@@ -14,7 +14,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -90,13 +90,21 @@ h6, .h6 {
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 60px;
   font-weight: normal;
+  font-family: 'Lobster', cursive;
+  text-align: center;
 }
+
+.blog-title a{
+  
+}
+
 .blog-description {
   font-size: 20px;
   color: #999;
